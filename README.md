@@ -2,7 +2,14 @@ Structure and Interpretation of Computer Programs Study
 ====
 컴퓨터 프로그래밍 구조와 해석 스터디를 위한 공간 입니다.
 
-##1주차 5/3 과제
+scheme 환경 설정
+- http://racket-lang.org
+- http://lisp-korea.wikispaces.com/Scheme
+
+emacs 튜토리얼
+- http://taesoo.org/emacsbook/
+
+##1주차 (5/3) 과제
 - 1.1 : 손미정
 - 1.2 : 김경주
 - 1.3 : 양학식
