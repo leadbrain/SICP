@@ -1,18 +1,16 @@
-(define (findbig item1 item2)
-  (if (> item1 item2)
-    item1
-    item2))
-
 (define (foo x y z)
-  (define big
-    (findbig x y))
-  (define small
-    (if (> x y)
-      y
-      x))
-  (define big2
-    (findbig z small))
-  (+ big big2))
+  (define (squre item)
+    (* item item))
+  (define (findsmall item1 item2)
+    (if (< item1 item2)
+      item1
+      item2))
+  (define (findbig item1 item2)
+    (if (> item1 item2)
+      item1
+      item2))
+  (+ (squre (findbig x y)) 
+     (squre (findbig (findsmall x y) z))))
 
 (foo 3 4 5)
 
@@ -25,6 +23,3 @@
 (foo 9 4 10)
 
 (foo 10 4 9)
-
-
-
