@@ -13,6 +13,10 @@ scheme 환경 설정
 emacs 튜토리얼
 - http://taesoo.org/emacsbook/
 
+LISP 코딩 규칙
+- http://google-styleguide.googlecode.com/svn/trunk/lispguide.xml
+
+
 ##2주차 (5/10) 과제
 - 1.9 : 박정욱
 - 1.10 : 김경주
