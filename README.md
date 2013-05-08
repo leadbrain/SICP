@@ -3,8 +3,10 @@ Structure and Interpretation of Computer Programs Study
 컴퓨터 프로그래밍 구조와 해석 스터디를 위한 공간 입니다.
 
 scheme 환경 설정
-- http://racket-lang.org
 - http://lisp-korea.wikispaces.com/Scheme
+- Dr Racket
+  - http://racket-lang.org
+  - http://www.neilvandyke.org/racket-sicp/
 - http://jaiswalayush.blogspot.kr/2011/10/install-mit-scheme-on-ubuntu-64-bit.html (for Ubuntu)
 
 웹 REPL
