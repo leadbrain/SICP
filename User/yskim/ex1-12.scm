@@ -1,0 +1,22 @@
+(define (pascal row col)
+  (cond ((= row 0) 1)
+        ((= row 1) 1)
+        ((= col 0) 1)
+        ((= col row) 1)
+        (else (+ (pascal (- row 1) (- col 1)) (pascal (- row 1) col)))))
+
+(define (display-s msg)
+  (display msg)
+  (display " "))
+
+(define (display-e msg)
+  (display msg)
+  (display "\n"))
+
+(display-e (pascal 0 1))
+(display-s (pascal 1 0)) (display-e (pascal 1 1))
+(display-s (pascal 2 0)) (display-s (pascal 2 1)) (display-e (pascal 2 2)) 
+(display-s (pascal 3 0)) (display-s (pascal 3 1)) (display-s (pascal 3 2)) (display-e (pascal 3 3))
+(display-s (pascal 4 0)) (display-s (pascal 4 1)) (display-s (pascal 4 2)) (display-s (pascal 4 3)) (display-e (pascal 4 4))
+(display-s (pascal 5 0)) (display-s (pascal 5 1)) (display-s (pascal 5 2)) (display-s (pascal 5 3)) (display-s (pascal 5 4)) (display-e (pascal 5 5))
+(display-s (pascal 6 0)) (display-s (pascal 6 1)) (display-s (pascal 6 2)) (display-s (pascal 6 3)) (display-s (pascal 6 4)) (display-s (pascal 6 5)) (display-e (pascal 6 6))
