@@ -18,6 +18,7 @@ emacs 튜토리얼
 LISP 코딩 규칙
 - http://google-styleguide.googlecode.com/svn/trunk/lispguide.xml
 
+김준석
 
 ##2주차 (5/10) 과제
 - 1.9 : 박정욱
