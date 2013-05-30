@@ -1,6 +1,6 @@
 Structure and Interpretation of Computer Programs Study
 ====
-컴퓨터 프로그래밍 구조와 해석 스터디를 위한 공간 입니다.
+컴퓨터 프로그래밍 구조와 해석 스터디를 위한 공간 입니다...
 
 scheme 환경 설정
 - http://lisp-korea.wikispaces.com/Scheme
@@ -17,6 +17,17 @@ emacs 튜토리얼
 
 LISP 코딩 규칙
 - http://google-styleguide.googlecode.com/svn/trunk/lispguide.xml
+
+##3주차 (5/17) 과제
+- 1.19 : 김준석
+- 1.20 : 김경주
+- 1.21 : 양학식
+- 1.22 : 김영선
+- 1.23 : 김준석
+- 1.24 : 정옥균
+- 1.25 : 최상훈
+- 1.26 : 채명훈
+- 1.27 : 박정욱
 
 
 ##2주차 (5/10) 과제
