@@ -1,6 +1,3 @@
-;; The first three lines of this file were inserted by DrRacket. They record metadata
-;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-advanced-reader.ss" "lang")((modname ex1-29) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f ())))
 (define (cube x) (* x x x))
 
 (define (inc n) (+ n 1))
@@ -27,5 +24,8 @@
     (yk k)))
   (* (/ h 3) (sum simpson-term 0 inc n)))
 
-(integral cube 0 1 0.01)
-(simpson-integral cube 0 1 0.01)
+(integral cube 0 1 100)
+(simpson-integral cube 0 1 100)
+
+(integral cube 0 1 1000)
+(simpson-integral cube 0 1 1000)
