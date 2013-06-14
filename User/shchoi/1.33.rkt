@@ -47,7 +47,7 @@
 (define (inc x) (+ x 1))
 
 (define (sum-of-squared-primes a b)
-  (filtered-accumulate prime? + 0 a inc b))
+  (filtered-accumulate prime? + 0 square a inc b))
 
 (sum-of-squared-primes 2 3)
 (sum-of-squared-primes 2 5)
