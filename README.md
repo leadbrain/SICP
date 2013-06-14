@@ -18,6 +18,7 @@ emacs 튜토리얼
 LISP 코딩 규칙
 - http://google-styleguide.googlecode.com/svn/trunk/lispguide.xml
  
+ test
 ##4주차 과제
 - 1.28 : 김경주
 - 1.29 : 양학식
