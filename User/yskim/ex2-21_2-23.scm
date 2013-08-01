@@ -1,3 +1,4 @@
+;2.21
 (define (square-list items)
   (if (null? items)
       nil
@@ -8,6 +9,7 @@
 (define (square-list2 items)
   (map cube items))
 (square-list2 (list 1 2 3 4 5))
+;2.23
 (define (for-each proc items)
   (cond ((not (null? items))
          (proc (car items))
